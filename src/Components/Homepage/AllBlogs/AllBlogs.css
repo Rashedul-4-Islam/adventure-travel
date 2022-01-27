@@ -1,0 +1,36 @@
+.blog-main-box{
+    position: relative;
+}
+.blog-image{
+    height: 200px;
+}
+.blog-inner-box{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0px 10px;
+    color: white;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    background-color: rgba(253, 30, 30, 0.4);
+}
+.pagination{
+    margin: 20px 100px;
+    display: inline-block;
+    align-items: flex-end;
+}
+/* .ddddd{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+} */
+.pagination button{
+    margin: 10px;
+}
+.pagination .selected{
+    background-color: rgb(11, 65, 228);
+    color: white;
+}

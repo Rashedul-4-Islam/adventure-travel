@@ -1,0 +1,14 @@
+.ban-height{
+    height: 80vh;
+}
+.caption{
+    font-size: 7rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .caption{
+        font-size: 4rem;
+    }
+  }

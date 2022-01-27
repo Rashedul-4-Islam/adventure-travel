@@ -1,0 +1,11 @@
+.dashboard{
+    border-right: 2px solid black;
+    box-shadow: 5px 10px 10px rgb(51, 44, 44);
+}
+.dash-button{
+    background-color: rgb(238, 238, 237);
+    margin-bottom: 5px;
+}
+.dash-button:hover{
+    background-color: rgb(173, 173, 170);
+}

@@ -1,0 +1,17 @@
+.input-field{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.map-image{
+    width: 60vw;
+}
+
+@media only screen and (max-width: 600px) {
+   .input-field{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   }
+   .map-image{
+       width: 100vw;
+   }
+  }
