@@ -10,7 +10,7 @@ const AllBlogs = () => {
     const [pageCount,setPageCount] = useState(0);
     const size = 10;
     useEffect(()=>{
-        fetch(`http://localhost:5000/totalBlogss?page=${page}&&size=${size}`)
+        fetch(`https://agile-bayou-97493.herokuapp.com/totalBlogss?page=${page}&&size=${size}`)
         .then(res => res.json())
         .then(data => {
             setBlogs(data?.totalBlogss)

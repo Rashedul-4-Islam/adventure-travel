@@ -7,7 +7,7 @@ const BlogDetails = () => {
     let {id} = useParams();
     const [details,setDetails] = useState([]);
     useEffect(() =>{
-        fetch("http://localhost:5000/totalBlogss")
+        fetch("https://agile-bayou-97493.herokuapp.com/totalBlogss")
         .then(res => res.json())
         .then(data => setDetails(data?.totalBlogss))
     },[])
