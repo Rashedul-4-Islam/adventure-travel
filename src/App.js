@@ -19,6 +19,7 @@ import DashBoardHome from './Components/DashBoard/DashBoardHome/DashBoardHome';
 import MakeAdmin from './Components/Admin/MakeAdmin/MakeAdmin';
 import ManageBlog from './Components/Admin/ManageBlog/ManageBlog';
 import BlogPost from './Components/Admin/BlogPost/BlogPost';
+import Post from './Components/DashBoard/Post/Post';
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
                 <Route path="/dashboard" element={<PrivateRoute><DashBoard/></PrivateRoute>}>
                   
                   <Route exact path="/dashboard" element={<DashBoardHome/>}> </Route>
-                  {/* <Route path={`/dashboard/myorders`} element={<MyOrder/>}/>    */}
+                  <Route path={`/dashboard/post`} element={<Post/>}/>   
                   <Route path={`/dashboard/review`} element={ <Review/>}/>  
                   <Route path={`/dashboard/makeadmin`} element={<MakeAdmin/>} />
                 <Route path={`/dashboard/manageBlog`} element={<ManageBlog/>}></Route> 

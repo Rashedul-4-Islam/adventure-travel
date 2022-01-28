@@ -28,9 +28,9 @@ const DashBoard = () => {
                          {/* <div className="mb-2 dash-button ps-4">
                         <Link className="text-decoration-none fw-bold" to="/dashboard/myorders"><span><i className="fab fa-first-order"></i></span> MyOrders</Link>
                         </div> */}
-                        {/* <div className="mb-2 dash-button ps-4">
-                        <Link className="text-decoration-none fw-bold" to="/dashboard/payment" ><span><i className="fas fa-dollar-sign"></i></span> Pay</Link>
-                        </div> */}
+                        <div className="mb-2 dash-button ps-4">
+                        <Link className="text-decoration-none fw-bold" to="/dashboard/post" ><span><i className="fas fa-dollar-sign"></i></span> Post</Link>
+                        </div>
                         <div className="mb-2 dash-button ps-4">
                         <Link className="text-decoration-none fw-bold" to="/dashboard/review"><span><i className="fas fa-file-pdf"></i></span> Review</Link>
                         </div>

@@ -1,0 +1,15 @@
+.reviewer{
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+}
+.review{
+    background-image: url(https://setsail.qodeinteractive.com/wp-content/uploads/2018/10/tour-featured-img-15.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 50px;
+
+}

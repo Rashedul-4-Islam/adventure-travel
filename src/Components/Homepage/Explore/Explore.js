@@ -32,7 +32,7 @@ const Explore = () => {
             </div>
             <h2 className="fs-1 fw-bold mb-5">Explore the World For Yourself</h2>
             <div>
-                <img className="map-image" src="./images/tour/map.png" alt="" />
+                <img className="mapp-image" src="./images/tour/map.png" alt="" />
             </div>
         </div>
     );

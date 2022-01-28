@@ -4,7 +4,7 @@ import './Slider.css'
 
 const Slider = () => {
     return (
-        <div>
+        <div className='banner-carousel'>
         <Carousel fade>
         <Carousel.Item>
             <img

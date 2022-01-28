@@ -4,7 +4,8 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="footers container-fluid">
+        <div className="footers">
+            <div className='container-fluid'>
             <div className="row bg-dark text-light mt-5 pt-4">
                 <div className="row">
                     <div className="col-6 col-md-3">
@@ -40,6 +41,7 @@ const Footer = () => {
                 <div className="row mt-4 text-center">
                     <p>Copyright <span>&copy;</span> 2021 Adventure-Travel. Developed By Rashedul Islam</p>
                 </div>
+            </div>
             </div>
         </div>
     );

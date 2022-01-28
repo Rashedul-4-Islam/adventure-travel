@@ -5,14 +5,15 @@ import { Card, Col, Row } from 'react-bootstrap';
 
 const ManageBlog = () => {
      const [products,setProducts] = useState([]);
+     console.log(products);
      useEffect(() =>{
-        fetch('http://localhost:5000/products')
+        fetch('https://agile-bayou-97493.herokuapp.com/totalBlogss')
         .then(res => res.json())
-        .then(data => setProducts(data))
+        .then(data => setProducts(data.totalBlogss))
      },[])
 
      const handleDelete = id => {
-        const url = `http://localhost:5000/products/${id}`;
+        const url = `https://agile-bayou-97493.herokuapp.com/totalBlogss/${id}`;
         fetch(url, {
             method: 'DELETE',
             headers: {"content-type" : "application/json"},
@@ -51,7 +52,7 @@ const ManageBlog = () => {
             </div>
             <div className="mb-4 my-order">
             <Row xs={1} md={3} className="g-5 mx-4 mt-3">
-                {products.map(product => (
+                {products?.map(product => (
                    
                     <Col  key = {product._id}>
                     <Card className="pb-3 shop-card cards">

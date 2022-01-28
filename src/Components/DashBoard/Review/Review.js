@@ -8,7 +8,7 @@ const Review = () => {
     // console.log(user);
     const { register, handleSubmit,reset, formState: { errors } } = useForm();
     const onSubmit = data => {
-        fetch(`https://secret-sierra-66554.herokuapp.com/reviews`, {
+        fetch(`http://localhost:5000/reviews`, {
             method: "POST",
             headers: {"content-type" : "application/json"},
             body: JSON.stringify(data)

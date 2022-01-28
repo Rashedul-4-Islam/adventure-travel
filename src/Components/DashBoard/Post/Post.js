@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import Swal from 'sweetalert2'
 // import './BlogPost.css'
 
-const BlogPost = () => {
+const Post = () => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
         // console.log(data);
@@ -51,4 +51,4 @@ const BlogPost = () => {
     );
 };
 
-export default BlogPost;
+export default Post;

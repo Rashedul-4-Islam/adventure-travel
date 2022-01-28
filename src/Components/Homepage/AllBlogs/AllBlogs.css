@@ -29,6 +29,7 @@
 } */
 .pagination button{
     margin: 10px;
+    padding: 10px;
 }
 .pagination .selected{
     background-color: rgb(11, 65, 228);
