@@ -21,7 +21,7 @@ const AllBlogs = () => {
         
     },[page])
     return (
-        <div>
+        <div id="blog">
             <h1 className="fw-bold mt-5 text-center"> <span className="fs-5 font-style text-warning">Explore Your</span> <br /> Perfect Destination</h1>
             <div>
             <Row xs={1} md={4} className="g-5 mx-4 mt-3">

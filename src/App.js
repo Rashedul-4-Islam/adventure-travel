@@ -28,7 +28,7 @@ function App() {
        <BrowserRouter>
           <Header/>
            <Routes>
-                <Route path="/" element={<Home/>} />
+                <Route path="/home" element={<Home/>} />
                 <Route path="/blogDetails/:id" element={<PrivateRoute><BlogDetails/></PrivateRoute>} />
                 <Route path="/dashboard" element={<PrivateRoute><DashBoard/></PrivateRoute>}>
                   

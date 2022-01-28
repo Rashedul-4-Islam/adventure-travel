@@ -30,6 +30,7 @@ const BlogDetails = () => {
                 <hr/>
                 <p>{matchItem?.description}</p>
                 <p className='fw-bold'>Destination: {matchItem?.location}</p>
+                {/* <p className='fw-bold'>Destination: {matchItem?.category}</p> */}
                 <div>
                     <h2 className='fw-bold'>From Gallery</h2>
                 <Row xs={1} md={3} className="g-5 mx-4 mt-3">

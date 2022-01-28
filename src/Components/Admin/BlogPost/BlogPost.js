@@ -29,17 +29,21 @@ const BlogPost = () => {
             <h2 className="mt-5 text-center">Add Products</h2>
             <div className=''>
             <form className='text-center' onSubmit={handleSubmit(onSubmit)}>
-            <input className="p-2 m-2 form-control w-50 m-auto"  {...register("name")} placeholder="name" />
-            <br />
-            <input className="p-2 m-2 form-control w-50 m-auto" {...register("date", { required: true })} placeholder="date" />
-            <br />
             <input className="p-2 m-2 form-control w-50 m-auto" type= "url"  {...register("img")} placeholder="image" />
+            <br />
+            <input className="p-2 m-2 form-control w-50 m-auto"  {...register("name")} placeholder="title" />
+            <br />
+            <input className="p-2 m-2 form-control w-50 m-auto" {...register("info", { required: true })} placeholder="Traveler Info" />
+            <br />
+            <input className="p-2 m-2 form-control w-50 m-auto" {...register("description", { required: true })} placeholder="description" />
+            <br />
+            <input className="p-2 m-2 form-control w-50 m-auto" {...register("category", { required: true })} placeholder="category" />
             <br />
             <input className="p-2 m-2 form-control w-50 m-auto" {...register("price", { required: true })} placeholder="cost" />
             <br />
             <input className="p-2 m-2 form-control w-50 m-auto" {...register("location", { required: true })} placeholder="location" />
-            <br />
-            <input className="p-2 m-2 form-control w-50 m-auto" {...register("description", { required: true })} placeholder="description" />
+           
+            
             {/* errors will return when field validation fails  */}
             {errors.exampleRequired && <span>This field is required</span>}
 
